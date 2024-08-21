@@ -1,0 +1,37 @@
+{
+    "name": "@bytenote/prettier-config",
+    "version": "1.0.1",
+    "description": "Reusable Prettier configuration",
+    "keywords": [
+        "prettier",
+        "config",
+        "reusable",
+        "tailwindcss",
+        "tailwind",
+        "jsdoc",
+        "sort-imports",
+        "organize-imports"
+    ],
+    "homepage": "https://github.com/bytenote/prettier-config#readme",
+    "bugs": "https://github.com/bytenote/prettier-config/issues",
+    "main": "prettier.config.js",
+    "license": "MIT",
+    "author": {
+        "name": "Bytenote",
+        "email": "contact@bytenote.dev",
+        "url": "https://github.com/bytenote"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bytenote/prettier-config.git"
+    },
+    "scripts": {
+        "format": "prettier -w ."
+    },
+    "dependencies": {
+        "@ianvs/prettier-plugin-sort-imports": "^4.3.1",
+        "prettier": "^3.3.3",
+        "prettier-plugin-jsdoc": "^1.3.0",
+        "prettier-plugin-tailwindcss": "^0.6.6"
+    }
+}
