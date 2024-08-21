@@ -10,7 +10,7 @@ const config = {
     singleQuote: true,
     quoteProps: 'consistent',
     jsxSingleQuote: false,
-    trailingComma: 'all',
+    trailingComma: 'es5',
     bracketSpacing: true,
     bracketSameLine: false,
     arrowParens: 'always',

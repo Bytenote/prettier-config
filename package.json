@@ -1,6 +1,6 @@
 {
     "name": "@bytenote/prettier-config",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Reusable Prettier configuration",
     "keywords": [
         "prettier",
