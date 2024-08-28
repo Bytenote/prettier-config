@@ -24,6 +24,7 @@ const config = {
         '^react$',
         '<BUILTIN_MODULES>',
         '<THIRD_PARTY_MODULES>',
+        '^@/.*$',
         '^[.]',
         '^(?!.*[.]css$)[./].*$',
         '.css$',
