@@ -27,7 +27,7 @@ const config = {
         '^@/.*$',
         '^[.]',
         '^(?!.*[.]css$)[./].*$',
-        '.css$',
+        '[.]css$',
     ],
     jsdocCommentLineStrategy: 'multiline',
     jsdocSeparateReturnsFromParam: true,
