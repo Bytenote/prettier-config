@@ -7,17 +7,14 @@ Reusable Prettier configuration.
 **Install:**
 
 ```sh
-# for NPM
 npm i -D @bytenote/prettier-config
 ```
 
 ```sh
-# for PNPM
 pnpm i -D @bytenote/prettier-config
 ```
 
 ```sh
-# for Bun
 bun i -D @bytenote/prettier-config
 ```
 
