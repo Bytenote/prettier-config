@@ -22,6 +22,8 @@ const config = {
     ].map(require.resolve),
     importOrder: [
         '^react$',
+        '^solid-js.*',
+        '^@solid-primitives.*',
         '<BUILTIN_MODULES>',
         '<THIRD_PARTY_MODULES>',
         '^[@~]/.*$',
