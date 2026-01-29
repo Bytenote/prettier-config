@@ -31,6 +31,8 @@ const config = {
         '^(?!.*[.]css$)[./].*$',
         '[.]css$',
     ],
+    importOrderParserPlugins: ['typescript', 'jsx', 'decorators-legacy'],
+    importOrderTypeScriptVersion: '5.9.3',
     jsdocCommentLineStrategy: 'multiline',
     jsdocSeparateReturnsFromParam: true,
 };
