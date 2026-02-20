@@ -1,3 +1,6 @@
+const PREFIXES_WITH_SLASH = ['@', '~', '#'];
+const PREFIXES_WITHOUT_SLASH = ['#'];
+
 /**
  * @type {import('prettier').Config}
  * @see https://prettier.io/docs/en/configuration.html
@@ -26,8 +29,8 @@ const config = {
         '^@solid-primitives.*',
         '<BUILTIN_MODULES>',
         '<THIRD_PARTY_MODULES>',
-        '^[@~]/.*$',
-        '^[.]',
+        `^[${PREFIXES_WITH_SLASH.join('')}]/.*$`,
+        `^[${PREFIXES_WITHOUT_SLASH.join('')}].*$`,
         '^(?!.*[.]css$)[./].*$',
         '[.]css$',
     ],
